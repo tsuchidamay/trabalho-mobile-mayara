@@ -19,14 +19,11 @@ export default function HomeScreen() {
         <ThemedText type="title">Cardápio Italiano:</ThemedText>
         <HelloWave />
       </ThemedView>
+     
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Pizza:</ThemedText>
-        <ThemedText> 
-          {' '}
-          <ThemedText type="defaultSemiBold">
-          
-          </ThemedText>{' '}
-          Calabresa, Quatro queijos e Portuguesa.
+        <ThemedText>
+        Calabresa, Quatro queijos e Portuguesa.
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
@@ -37,9 +34,11 @@ export default function HomeScreen() {
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Lasanha:</ThemedText>
-          Frutos do mar, á Bolonhesa e Quatro queijos.{' '}
-   
+        <ThemedText>
+           Frutos do mar, á Bolonhesa e Quatro queijos.
+        </ThemedText>
       </ThemedView>
+      
     </ParallaxScrollView>
   );
 }
